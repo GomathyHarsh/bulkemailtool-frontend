@@ -20,10 +20,7 @@ const Header = () => {
           <div className="navbar-header">
             <a className="navbar-brand" href="#"><h2>Bulk Email Tool</h2></a>
           </div>
-          <ul className="nav navbar-nav">
-            <li className="active"><a href="#">Home</a></li>
           
-          </ul>
           <ul className="nav navbar-nav navbar-right">
             <li><a href="/register"><span className="glyphicon glyphicon-user"></span> Register</a></li>
             <li><a href="/login"><span className="glyphicon glyphicon-log-in"></span> Login</a></li>
