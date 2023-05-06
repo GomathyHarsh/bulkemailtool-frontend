@@ -25,7 +25,7 @@ const Register = () =>{
      try{
       event.preventDefault(); // to prevant data and state,to carry the event- entire function execution
      // console.log('Logging in');
-      const response= await axios.post(`${process.env.REACT_APP_BASE_URL}/register`,userDetails,{withCredentials:true});
+      const response= await axios.post(`${process.env.REACT_APP_BASE_URL}/register`,userDetails);
       if(response){
         navigate('/login');
       }

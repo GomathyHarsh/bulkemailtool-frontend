@@ -25,7 +25,7 @@ const useFindUser = () =>{
 
     useEffect(()=>{
         setLoading(true);
-        getUser();
+        // getUser();
        
     },[]);
    return [user,setUser,loading];

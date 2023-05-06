@@ -17,7 +17,7 @@ const Login =() =>{
      try{
       event.preventDefault(); // to prevant data and state,to carry the event- entire function execution
      // console.log('Logging in');
-      const response= await axios.post(`${process.env.REACT_APP_BASE_URL}/signin`,{...userCred},{withCredentials:true});
+      const response= await axios.post(`${process.env.REACT_APP_BASE_URL}/signin`,{...userCred});
       if(response){
         navigate('/upload');
       }
