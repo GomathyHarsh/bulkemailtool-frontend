@@ -30,7 +30,7 @@ const Login =() =>{
        <div className="App">
         <section className="vh-100">
   <div className="container-fluid h-custom">
-    <div className="row d-flex justify-content-center align-items-center h-100">
+    <div className="row d-flex justify-content-center align-items-center h-100 ">
       <div className="col-md-9 col-lg-6 col-xl-5">
         <div>
           <h2>Improve your engagement with personalized bulk emails</h2>
@@ -62,12 +62,7 @@ const Login =() =>{
 
           <div class="d-flex justify-content-between align-items-center">
           
-            <div class="form-check mb-0">
-              <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
-              <label class="form-check-label" for="form2Example3">
-                Remember me
-              </label>
-            </div>
+            
             <a href="/forgotPassword" class="text-body">Forgot password?</a>
           </div>
 
@@ -90,20 +85,7 @@ const Login =() =>{
    
 
    
-    <div>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="#!" class="text-white me-4">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="#!" class="text-white">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </div>
+   
    
   </div>
 </section>
