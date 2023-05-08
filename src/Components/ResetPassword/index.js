@@ -16,7 +16,7 @@ const ResetPassword = () => {
     const handleLogin = async (event) => {
         try{
             event.preventDefault();
-            const response = await axios.post(`${process.env.REACT_APP_BASE_URL}/resetPassword`, userData, {withCredentials: true});
+            const response = await axios.post(`${process.env.REACT_APP_BASE_URL}/resetPassword`, userData);
             if(response){
                 navigate('/login');
             }
