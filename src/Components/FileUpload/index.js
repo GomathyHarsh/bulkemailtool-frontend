@@ -34,6 +34,7 @@ const FileUpload = () => {
     try {
       const response = await axios.post(`${process.env.REACT_APP_BASE_URL}/upload`, formData);
       setMessage(response.data.message);
+      alert("Email sent successfully");
     } catch (error) {
       setMessage("Error uploading file");
       console.error(error);
@@ -56,7 +57,7 @@ const FileUpload = () => {
 
     <form onSubmit={handleSubmit} id="emailForm" className="my-5">
       <div className="form-group">
-        <label for="fileInput">Select Excel File with Email List </label>
+        <label for="fileInput">Upload Excel File with Email List </label>
         <input
           type="file"
           className="form-control-file m-3"

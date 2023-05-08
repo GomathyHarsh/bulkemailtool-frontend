@@ -24,6 +24,7 @@ const Login =() =>{
       
      }catch(error){
       console.log('error:',error);
+      alert("invali username or password");
      }
     }
     return(
@@ -82,14 +83,8 @@ const Login =() =>{
     <div class="text-white mb-3 mb-md-0">
       
     </div>
-   
-
-   
-   
-   
   </div>
 </section>
        </div>
-    )
-}
+       )}
 export default Login;

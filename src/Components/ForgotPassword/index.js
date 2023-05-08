@@ -14,6 +14,7 @@ const ForgotPassword = () => {
             const response = await axios.post(`${process.env.REACT_APP_BASE_URL}/forgotPassword`, { email: email }, { withCredentials: true });
             if (response) {
                 setIsEmailSent(true);
+                alert("Reset link sent your email")
             }
         } catch (error) {
             console.log('Error: ', error);
