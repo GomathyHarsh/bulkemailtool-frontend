@@ -12,6 +12,7 @@ const ForgotPassword = () => {
         try {
             event.preventDefault();
             const response = await axios.post(`${process.env.REACT_APP_BASE_URL}/forgotPassword`, { email: email });
+           console.log(response);
             if (response) {
                 setIsEmailSent(true);
                 alert("Reset link sent your email")

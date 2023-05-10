@@ -24,7 +24,7 @@ const Login =() =>{
       
      }catch(error){
       console.log('error:',error);
-      alert("invali username or password");
+      // alert("invali username or password");
      }
     }
     return(
